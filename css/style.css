@@ -1,0 +1,138 @@
+
+
+p{
+  color:white;
+  line-height:1.5;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+  background-color:black;
+
+}
+
+h1
+{
+
+color:black;
+text-align: center;
+border:9px solid black;
+border-radius: 40px;
+
+}
+
+h2{
+
+
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif
+
+}
+
+
+
+#wrapper {
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+#tabs-1,#tabs-2,#tabs-3,#tabs-4 
+{
+
+
+padding:5px;
+margin:5px;
+
+}
+#tabs4 {
+	width: 500px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+#tabs4 li {
+	float: left;
+	margin-right: 2px;
+}
+
+#tabs4 li a{
+	display: block;
+	padding: 20px 50px;
+	background:black;
+	text-decoration: none;
+	color:white;
+	width:80px;
+	margin-left:5px;
+	
+
+}
+#tabs4 li a:hover {
+	background-color:orangered;
+}
+
+#tabs_container {
+	padding: 40px;
+	overflow: hidden;
+	position: relative;
+	background:black;
+}
+
+#tabs_container div {
+	margin-right: 40px;
+}
+
+
+
+.make_transist {
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+
+
+
+.hideflip {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+
+	-webkit-transform: rotatey(-90deg) scale(1.1);
+	-moz-transform: rotatey(-90deg) scale(1.1);
+	-o-transform: rotatey(-90deg) scale(1.1);
+	-ms-transform: rotatey(-90deg) scale(1.1);
+	transform: rotatey(-90deg) scale(1.1);
+
+	-webkit-transform-origin: 50% 50%;
+	-moz-transform-origin: 50% 50%;
+	-o-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+}
+
+.showflip {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+
+	-webkit-transition-delay: .3s;
+	-moz-transition-delay: .3s;
+	-o-transition-delay: .3s;
+	-ms-transition-delay: .3s;
+	transition-delay: .3s;
+
+	-webkit-transform: rotatey(0deg) scale(1);
+	-moz-transform: rotatey(0deg) scale(1);
+	-o-transform: rotatey(0deg) scale(1);
+	-ms-transform: rotatey(0deg) scale(1);
+	transform: rotatey(0deg) scale(1);
+
+	
+}
+
+
+.tabulousclear {
+	display: block;
+	clear: both;
+}
